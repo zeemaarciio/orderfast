@@ -1,0 +1,41 @@
+fieldset {
+    font-family: sans-serif;
+    /*border: 5px solid #BDBDBD;*/
+    background: #EEEEEE;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+fieldset legend {
+    background: #E0E0E0;
+    color: #fff;
+    padding: 5px 10px ;
+    font-size: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 0 5px #ddd;
+    margin-left: 20px;
+}
+
+.flash2{
+	background:#C00;
+	color:#fff;
+	font:400 18px Oswald;
+	height:40px;
+	left:0;
+	line-height:40px;
+	opacity:0.5;
+	position:absolute;
+	text-align:center;
+	top:150px;
+	/*top:200px;*/
+	width:100%;
+}
+
+.message{
+	/*configura as mensagens de erro no cadastro*/
+	background:#f1f1f1;
+	color:#666;
+	margin:0 auto;
+	text-align:center;
+	width:100%;
+}

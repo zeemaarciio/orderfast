@@ -1,0 +1,339 @@
+*{
+	
+	outline:none;
+}
+a{
+	text-decoration:none;
+}
+body{
+	/*font:300 16px Oswald;*/
+	font: 300 16px 'Open Sans', sans-serif;
+}
+#login{
+	border:1px solid #e0e0e0;
+	margin:150px auto;
+	padding:15px;
+	/*position:relative;*/
+	top:200px;
+	width:400px;
+	
+}
+
+@media screen and (max-width:1007px){
+    #login{
+        width:80%;
+    }
+}
+
+/*#login label{
+	display: block;
+	padding-top: 5px;
+}*/
+
+
+.logo-login{
+	height:130px;
+	margin:0 auto;
+	padding:7px;
+	position:relative;
+	top:5px;
+	width:200px;
+}
+.flash{
+	background:#C00;
+	color:#fff;
+	font:400 18px Oswald;
+	height:40px;
+	left:0;
+	line-height:40px;
+	opacity:0.5;
+	position:absolute;
+	text-align:center;
+	top:110px;
+	/*top:200px;*/
+	width:100%;
+}
+
+.flash2{
+	background:#C00;
+	color:#fff;
+	font:400 18px Oswald;
+	height:40px;
+	left:0;
+	line-height:40px;
+	opacity:0.5;
+	position:absolute;
+	text-align:center;
+	/*top:150px;*/
+	/*top:200px;*/
+	width:100%;
+}
+#cadastrar{
+	-moz-border-radius-bottomleft:8px;
+	-moz-border-radius-bottomright:15px;
+	-webkit-border-bottom-left-radius:8px;
+	-webkit-border-bottom-right-radius:15px;
+	background:#f1f1f1;
+	border-bottom-left-radius:8px;
+	border-bottom-right-radius:15px;
+	height:40px;
+	position:absolute;
+	right:350px;
+	text-align:center;
+	/*top:0;*/
+	width:120px;
+	z-index:2;
+
+}
+.message{
+	/*configura as mensagens de erro no cadastro*/
+	background:#f1f1f1;
+	color:#666;
+	margin:0 auto;
+	text-align:center;
+	width:100%;
+}
+#cadastrar a{
+	color:#999;
+	display:block;
+	/*font:400 18px Oswald;*/
+	font: 400 18px 'Open Sans', sans-serif;
+	margin-top:5px;
+}
+#cadastrar:hover a{
+	/*color:#999;*/
+    color:#fff; /*muda a cor da letra entrar/cadastrar*/
+}
+#cadastrar:hover{
+	/*background:#09F;
+	color:#fff;*/
+	background:#FF8A65; /*muda a cor da barra entrar/cadastrar*/
+    color:#fff; /*muda a cor da letra entrar/cadastrar*/
+}
+
+.form label{
+	display:block;
+	padding-top:5px;
+	margin: 0 0px 3px 3px;
+	
+}
+.acomodar{
+	margin:0 auto;
+	width:250px;
+}
+
+@media screen and (max-width:1007px){
+    .acomodar{
+        width:80%;
+    }
+}
+
+.txt{
+	border:none;
+	border:thin solid #E0E0E0;  /*deixa as linhas claras  */
+	height:40px;
+	width:250px;
+	background-color:#f1f1f1;
+	
+}
+
+@media screen and (max-width:1007px){
+    .txt{
+        width:100%;
+        padding: 0 10px;
+    }
+}
+
+.txt:focus{
+	border:thin solid #FF3D00; /*Muda a cor das linhas quando clicadas*/
+    box-shadow:0 2px 10px #FF3D00;
+    -webkit-box-shadow:0 2px 10px #FF3D00;
+    -moz-box-shadow:0 2px 10px #FF3D00;
+}
+
+.sb{
+	border:none;
+	color:#ef4416;
+	cursor:pointer;
+	display:block;
+	/*font:400 18px Oswald;*/
+	font: 400 18px 'Open Sans', sans-serif;
+	height:40px;
+	margin-top:10px;
+	width:250px;
+}
+
+@media screen and (max-width:1007px){
+    .sb{
+        width: 100%;
+    }
+}
+
+.sb:hover{
+	background:#FF8A65;
+    color:#fff;
+	
+}
+
+/*Classes de Herança */
+
+.bradius{
+	/*bradius torna os campos arredondados*/
+	border-radius:6px;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+}
+.fleft{
+	float:left;
+}
+.fright{
+	float:right;
+}
+
+.transition{
+	transition: all 0.5s linear;
+	-webkit-transition:all 0.5s linear;
+	-moz-transition:all 0.5s linear;
+}
+
+/*Multiplos Estilos*/
+.txt,.txt:focus,.sb,.sb:hover,#cadastrar:hover,#cadastrar{
+	transition:all 0.5s linear;
+	-webkit-transition:all 0.5s linear;
+	-moz-transition:all 0.5s linear;
+}
+
+/*contato*/
+
+ 
+#contato{
+	border:1px solid #e0e0e0;
+	margin:150px auto;
+	padding:15px;
+	/*position:relative;*/
+	top:200px;
+	width:600px;
+	
+} 
+
+@media screen and (max-width:1007px){
+    #contato{
+        width: 80%;
+    }
+}
+ 
+.msgcontact{
+	border:none;
+	border:thin solid #E0E0E0;  /*deixa as linhas claras  */
+	height:180px;
+	width:480px;
+	margin: 0 0 0 -120px;
+	background-color:#f1f1f1;
+	
+}
+
+@media screen and (max-width:1007px){
+    .msgcontact{
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+    }
+}
+
+.msgcontact:focus{
+	border:thin solid #FF3D00; /*Muda a cor das linhas quando clicadas*/
+    box-shadow:0 2px 10px #FF3D00;
+    -webkit-box-shadow:0 2px 10px #FF3D00;
+    -moz-box-shadow:0 2px 10px #FF3D00;
+}
+
+.text{
+	border:none;
+	border:thin solid #E0E0E0;  /*deixa as linhas claras  */
+	height:40px;
+	width:480px;
+	margin: 0 0 0 -120px;
+	background-color:#f1f1f1;
+	
+}
+
+@media screen and (max-width:1007px){
+    .text{
+        padding: 0 10px;
+        margin: 0;
+        width: 100%;
+    }
+}
+
+.text:focus{
+	border:thin solid #FF3D00; /*Muda a cor das linhas quando clicadas*/
+    box-shadow:0 2px 10px #FF3D00;
+    -webkit-box-shadow:0 2px 10px #FF3D00;
+    -moz-box-shadow:0 2px 10px #FF3D00;
+}
+   
+.formContact label{
+	display:block;
+	padding-top:5px;
+	margin: 0 0 3px -115px;
+	
+}
+
+@media screen and (max-width:1007px){
+    .formContact label{
+        margin:3px 0px;
+        position: relative;
+    }
+}
+
+.sbContact{
+	border:none;
+	color:#ef4416;
+	cursor:pointer;
+	display:block;
+	/*font:400 18px Oswald;*/
+	font: 400 18px 'Open Sans', sans-serif;
+	height:40px;
+	margin-top:10px;
+	width: 480px;
+    margin: 10px 0 0 -120px;
+}
+
+@media screen and (max-width:1007px){
+    .sbContact{
+        width: 100%;
+        margin: 0;
+        margin-top: 10px;
+    }
+}
+
+.sbContact:hover{
+	background:#FF8A65; /*muda a cor da barra entrar/cadastrar*/
+    color:#fff; /*muda a cor da letra entrar/cadastrar*/
+	
+}
+
+/*Multiplos Estilos*/
+.text,.text:focus,.sbContact,.sbContact:hover{
+	transition:all 0.5s linear;
+	-webkit-transition:all 0.5s linear;
+	-moz-transition:all 0.5s linear;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
